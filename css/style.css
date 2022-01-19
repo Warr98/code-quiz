@@ -99,7 +99,6 @@ li {
     border-top: 1px solid lightgray;
 }
 
-/* Start media queries */
 /* A Media Query max-width: 786px */
 @media screen and (max-width: 786px) {
 /* Resized content to fit 786px  */
@@ -108,25 +107,22 @@ body {
 }
 /* Resized main-content to fit 786px  */
 #wrapper {
-position: absolute;
-left: 20%;
+    position: absolute;
+    left: 20%;
 }
 
 a {
-margin-left: 20%;
+    margin-left: 20%;
 }
-#goBack {
-    
+#goBack {   
     position: relative;
     left: 55%;
 }
 
-#clear {
-    
+#clear {   
     position: relative;
     right: 5%;
     
-}
 }
 
 /* A Media Query max-width: 640px */
@@ -137,8 +133,8 @@ body {
 }
 /* Resized main-content to fit 640px  */
 #wrapper {
-position: absolute;
-left: 10%;
+    position: absolute;
+    left: 10%;
 }
 a {
   margin-left: 10%;
